@@ -2,43 +2,64 @@
 
 // Create a variable called 'myName' with a value that is your name. 
 
-// Code here
+var myName = "John";
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
-//Code here
+var favNum = "7";
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and assign it a value of true.
 
-//Code here
+var lovesCode = "true"
+
+Boolean(lovesCode)
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
-//Code here
+function sum (num1, num2) {
+	return num1 + num2;
+}
+
+console.log(sum)
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
 
-//Code here
+function lovesCodeChecker () {
+	if (x === x)
+
+}
 
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
-//Code here
+function oddChecker () {
+	it('should return "the number is odd" if the number is odd', function() {
+		expect(oddChecker(7)).toBe('the number is odd')
+	})
+	it('should return "the number is true" if the number is true', function() {
+		expect(oddChecker(4)).toBe('the number is true')
+	it('should return "the number is true" if the number is even', function() {
+		expect(oddChecker(4)).toBe('the number is even')
+	})
+})
 
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
-//Code Here
+function iLove ( {
+
+
+})
 
 //////////////////PROBLEM 8////////////////////
 
@@ -88,32 +109,47 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
-// Code Here
+let arr = [3, 55, 788, 2, 1]
+	arr.map (function ()) {
+
+	}
+
+	letnewArr = arr.map(function)
 
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
-// Code Here
+let arr = [3, 55, 788, 2, 1]
+
+letnewArr.filter()
 
 //////////////////PROBLEM 16////////////////////
 
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
 
-// Code Here
+let arr = [3, 55, 788, 2, 1];
+
+letnewArr = arr.reduce((total, amount)) => total + amount;
 
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
-// Code Here
+arr = "myNumbersIndex";
+
+myNumbersIndex.forEach ((element)) => {
+
+})
+
 
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
-// Code Here
+arr = "notGeorge";
+
 
 //////////////////PROBLEM 19////////////////////
 
